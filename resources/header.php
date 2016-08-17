@@ -22,6 +22,6 @@
         <!-- Fuentes de iconos Font-Aweseme-->
         <script src="https://use.fontawesome.com/89abfb1f0b.js"></script>
         <!-- Cargamos los estilos propios-->
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="http://localhost/bootstrap4yphp/css/main.css">
     </head>
     <body>
