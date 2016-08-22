@@ -1,4 +1,4 @@
-<?php include "resources/header.php"; ?>
+<?php include __DIR__.'/resources/header.php'; ?>
 
     <section>
         <article class="user">
@@ -35,4 +35,4 @@
 
 
 
-<?php include "resources/footer.php"; ?>
+<?php include __DIR__.'/resources/footer.php'; ?>

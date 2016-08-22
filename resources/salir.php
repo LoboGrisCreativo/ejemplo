@@ -3,7 +3,7 @@ session_start();
 session_destroy();
 ?>
 
-<?php include "header.php"; ?>
+<?php include __DIR__.'/header.php'; ?>
 
 <section>
     <article>
@@ -16,4 +16,4 @@ session_destroy();
     </article>
 </section>
 
-<?php include "footer.php"; ?>
+<?php include __DIR__.'/footer.php'; ?>
