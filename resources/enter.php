@@ -11,7 +11,7 @@ if ($_POST["user"]=="lobogriscreativo" && $_POST["password"]=="PandorA976"){
     //asigno un nombre a la sesión para poder guardar diferentes datos
     session_start();
     // inicio la sesión
-    session_set_cookie_params(0, "/", $HTTP_SERVER_VARS["HTTP_HOST"], 0);
+    session_set_cookie_params(0, "/", $_SERVER["HTTP_HOST"], 0);
     //cambiamos la duración a la cookie de la sesión
     $_SESSION["autentificado"]= "SI";
     //defino la sesión que demuestra que el usuario está autorizado

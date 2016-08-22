@@ -6,7 +6,7 @@ ini_set("session.use_trans_sid","0");
 //iniciamos la sesión
 session_name("usuariologueado");
 session_start();
-session_set_cookie_params(0, "/", $HTTP_SERVER_VARS["HTTP_HOST"], 0);
+session_set_cookie_params(0, "/", $_SERVER["HTTP_HOST"], 0);
 //cambiamos la duración a la cookie de la sesión
 
 //antes de hacer los cálculos, compruebo que el usuario está logueado
